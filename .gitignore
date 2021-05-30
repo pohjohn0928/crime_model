@@ -1,0 +1,8 @@
+.models
+crime
+*.csv
+*.json
+*.pkl
+.idea/
+__pycache__/
+venv/
