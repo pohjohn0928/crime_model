@@ -10,6 +10,9 @@ import tensorflow.keras as keras
 from tensorflow.python.keras.layers import InputLayer,Lambda,Dense,Dropout
 import pickle
 
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 class Models:
     def tokenizeData(self,data,max_length):
